@@ -1,0 +1,83 @@
+/* Generic */
+html,
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #E0E0E0;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+body {
+	color: #000000c0;
+	font-family: 'Pridi', serif;
+}
+
+a {
+	color: #000000c0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1976D2;
+}
+
+/* Main page */
+.background {
+	width: 100%;
+	height: 50%;
+	object-fit: fill;
+}
+
+.toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.toolbar img {
+	height: 100%;
+	max-height: 200px;
+}
+
+.title {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 300%;
+	text-align: center;
+}
+
+.body {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 150%;
+	text-align: center;
+}
+
+.googleplay {
+	margin-top: 2em;
+}
+
+/* Privacy Policy */
+.privacypolicy {
+	max-width: 800px;
+	overflow-wrap: break-word;
+	display: inline-block;
+	word-break: break-word;
+	margin-right: 1em;
+	margin-left: 1em;
+}
