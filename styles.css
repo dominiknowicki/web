@@ -4,16 +4,6 @@ body {
 	height: 100%;
 	margin: 0;
 	background-color: #E0E0E0;
-}
-
-.centered {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-body {
 	color: #000000c0;
 	font-family: 'Pridi', serif;
 }
@@ -27,7 +17,20 @@ a:hover {
 	color: #1976D2;
 }
 
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 /* Main page */
+.main-page-text-container {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+}
+
 .background {
 	width: 100%;
 	height: 50%;
@@ -73,7 +76,7 @@ a:hover {
 }
 
 /* Privacy Policy */
-.privacypolicy {
+.privacy-policy-container {
 	max-width: 800px;
 	overflow-wrap: break-word;
 	display: inline-block;
